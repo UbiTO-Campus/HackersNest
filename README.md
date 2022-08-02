@@ -1,4 +1,3 @@
-
 # HackersNest
 
 [![Build Targets](https://github.com/UbisoftToronto/HackersNest/workflows/Build%20Targets/badge.svg)](https://github.com/UbiTO-Campus/HackersNest/actions)
