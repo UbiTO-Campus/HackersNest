@@ -12,7 +12,7 @@ Demonstrate your abilities as a game developer and take us on a journey! Our men
 
 ## Theme
 
-You must create a game that includes the theme of .
+You must create a game that includes the theme of TBD .
 
 ## Documentation
 
