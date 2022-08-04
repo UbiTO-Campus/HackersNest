@@ -8,7 +8,7 @@ Base framework for the Ubisoft Toronto Hackathon challenges
 
 Demonstrate your abilities as a game developer and take us on a journey! Our mentors will help you succeed by providing hands on demonstrations, documentation and consultations along the way.
 
-**Please attend our workshop (5:30PM-6:00PM on Friday, September 16th 2022)** and visit our Hopin booth and Discord channel to meet our mentors 
+**Please attend our workshop TBD** and visit our booth and Discord channel to meet our mentors 
 
 ## Theme
 
