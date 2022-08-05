@@ -19,4 +19,4 @@ You must create a game that includes the theme of TBD .
 - [Build and Run](https://github.com/UbiTO-Campus/HackersNest/wiki/Build-and-Run)
 - [Code Overview](https://github.com/UbiTO-Campus/HackersNest/wiki/GameEngine-Overview)
 - [Step By Step Tutorial](https://github.com/UbiTO-Campus/HackersNest/wiki/Step-By-Step-Tutorial)
-- [HTN Challenge 2022 Document](https://github.com/UbiTO-Campus/HackersNest/wiki/Step-By-Step-Tutorial)
+- [HTN Challenge 2022 Document](https://github.com/UbiTO-Campus/HackersNest/blob/main/Ubisoft%20Toronto%20HTN%20Challenge%202022.pdf)
