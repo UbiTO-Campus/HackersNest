@@ -15,8 +15,23 @@ namespace Game
 		GameBoard();
 		virtual ~GameBoard();
 
-		void Update();		
-		bool IsGameOver() { return false; }
+		void Update();
+	protected:
+		//Placeholder temp - should go to helpers or smth.
+		float RandomFloatRange(float a, float b)
+		{
+			return ((b - a) * ((float)rand() / RAND_MAX)) + a;
+		}
+
+		void CreateBackGround();
+		void UpdateBackGround();
+
+		PlayerEntity* m_player;
+		GameEngine::Entity* m_text;
+		GameEngine::Entity* m_backGround;
+
+		float m_lastObstacleSpawnTimer;
+		bool  m_isGameOver;
 	};
 }
 

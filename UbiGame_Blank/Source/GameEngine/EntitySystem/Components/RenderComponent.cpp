@@ -51,12 +51,12 @@ void RenderComponent::Render(sf::RenderTarget* target)
 			col.b = 255;
 			rect.setFillColor(sf::Color::Transparent);
 			rect.setOutlineThickness(2.f);
-			if (GameEngineMain::GetInstance()->IsGameOver())
-			{
-				float seconds = GameEngineMain::GetInstance()->GetGameTime();
-				float alphaVal = abs(sin(4 * seconds));
-				col.a = (int)(255.f * alphaVal);
-			}
+			// if (GameEngineMain::GetInstance()->IsGameOver())
+			// {
+			// 	float seconds = GameEngineMain::GetInstance()->GetGameTime();
+			// 	float alphaVal = abs(sin(4 * seconds));
+			// 	col.a = (int)(255.f * alphaVal);
+			// }
 
 			rect.setOutlineColor(col);
 
@@ -72,14 +72,14 @@ void RenderComponent::Render(sf::RenderTarget* target)
 		shape.setFillColor(m_fillColor);
 		shape.setPosition(pos);
 
-		if (GameEngineMain::GetInstance()->IsGameOver())
-		{
-			float seconds = GameEngineMain::GetInstance()->GetGameTime();
-			float alphaVal = abs(sin(4 * seconds));
-			sf::Color gameOverCol = m_fillColor;
-			gameOverCol.a = (int)(255.f * alphaVal);
-			shape.setFillColor(gameOverCol);
-		}
+		// if (GameEngineMain::GetInstance()->IsGameOver())
+		// {
+		// 	float seconds = GameEngineMain::GetInstance()->GetGameTime();
+		// 	float alphaVal = abs(sin(4 * seconds));
+		// 	sf::Color gameOverCol = m_fillColor;
+		// 	gameOverCol.a = (int)(255.f * alphaVal);
+		// 	shape.setFillColor(gameOverCol);
+		// }
 
 		target->draw(shape);
 	}	

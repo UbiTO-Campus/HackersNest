@@ -36,7 +36,6 @@ namespace GameEngine
         std::vector<Entity*> GetEntitiesByTag(std::string tag);
 
         void OnInitialised();
-        bool IsGameOver() const { return m_gameBoard && m_gameBoard->IsGameOver(); }
 
     private:
         GameEngineMain();
