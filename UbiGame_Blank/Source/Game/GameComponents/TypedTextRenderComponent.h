@@ -10,7 +10,7 @@ namespace GameEngine
         ~TypedTextRenderComponent();
 
         virtual void Render(sf::RenderTarget* target) override;
-        virtual void TypedTextRenderComponent::Update() override;
+        virtual void Update() override;
 
         void SetString(std::string displayString);
         void SetFont(std::string fontFile);

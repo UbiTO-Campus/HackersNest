@@ -1,5 +1,6 @@
 #pragma once
 #include "GameEngine/EntitySystem/Entity.h"
+#include "Game/GameEntities/TextboxEntity.h"
 
 #include <SFML/System/Vector2.hpp>
 #include <vector>
@@ -29,6 +30,7 @@ namespace Game
 		PlayerEntity* m_player;
 		GameEngine::Entity* m_text;
 		GameEngine::Entity* m_backGround;
+		Game::TextboxEntity* m_textbox;
 
 		float m_lastObstacleSpawnTimer;
 		bool  m_isGameOver;
